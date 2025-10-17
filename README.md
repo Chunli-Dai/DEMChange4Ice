@@ -4,7 +4,7 @@ This code can estimate ice surface elevation change rates from time-stamped Arct
 Step 1: update settings in constant.m; make sure tilelist contains the list of tiles to run; 
 	prepare striplist.dat file (example provided) to include all available DEM strip files in your study area.
 	update code directory in compile.sh
-	copy folder SETSM basics glims_2019 GSHHS from https://github.com/Chunli-Dai/DEMChangeDetection/tree/main/code to the directory code/
+	copy folders: SETSM, basics, glims_2019, GSHHS, from https://github.com/Chunli-Dai/DEMChangeDetection/tree/main/code to the directory code/
 
 Step 2: run Tilemain_nov.m to update the arcticdem_nov.tif and get mat0.mat.
 
