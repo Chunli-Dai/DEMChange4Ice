@@ -12,10 +12,6 @@ Step 3: ./compile.sh #to compile all matlab codes.
 
 Step 4: nohup ./run_change_group_pgc_par.sh > outrun1 &
 
-
-Output files: Elevation change data for an area size of 2 km by 2km.
-It is suggested to run two scenarios. One is using summer (July August) data only, the other is using data from all seasons.
-
 The result includes:
 26_44_2_1_listused.txt: a list of ArcticDEM strip file names used for change estimation.
 26_44_2_1_rate.tif: elevation change rate in m/yr;
